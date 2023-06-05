@@ -22,65 +22,65 @@ Performance of the student is reflection of the knowledge and grade is one of th
  
 # Data Description
 The data is featuring various 28 diiferent attributes which are contribute towards the grade of the students. Following are the features:
-##### school: student's school
+#### school: student's school
 'GP' - Gabriel Pereira                                                       'MS' - Mousinho da Silveira
-##### sex: student's sex
+#### sex: student's sex
 'F' - female                                                                 'M' - male
-##### age: student's age
+#### age: student's age
 from 15 to 22
-##### address: student's home address type
+#### address: student's home address type
 'U' - urban'                                                                 'R' - rural
-##### famsize: family size
+#### famsize: family size
 'LE3' - less or equal to 3                                                   'GT3' - greater than 3
-##### Pstatus: parent's cohabitation status
+#### Pstatus: parent's cohabitation status
 'T' - living together                                                        'A' - apart
-##### Medu: mother's education
-##### Fedu: father's education 0 - none
+#### Medu: mother's education
+#### Fedu: father's education 0 - none
 1 - primary education (4th grade)                                             2 – 5th to 9th grade
 3 – secondary education                                                       4 – higher education
-###### Mjob: mother's job
-###### Fjob: father's job
+#### Mjob: mother's job
+#### Fjob: father's job
 'teacher'                                                                     'health' care related
 civil 'services' (e.g. administrative or police)                              'at_home' or 'other')
-##### reason: reason to choose this school
+#### reason: reason to choose this school
 close to 'home'                                                                school 'reputation'
 'course' preference                                                            'other'
-###### guardian: student's guardian
+#### guardian: student's guardian
 'mother'                                                                      'father' 
 'other'
-###### traveltime: home to school travel time
+#### traveltime: home to school travel time
 1 - <15 min.                                                                   2 - 15 to 30 min. 
 3 - 30 min. to 1 hour                                                          4 - >1 hour
-##### studytime: weekly study time
+#### studytime: weekly study time
 1 - <2 hours                                                                   2 - 2 to 5 hours 
 3 - 5 to 10 hours                                                              4 - >10 hours
-##### failures: number of past class failures
+#### failures: number of past class failures
 n if 1<=n<3, else 4
-##### schoolsup: extra educational support
-##### famsup: family educational support
-##### paid: extra paid classes within the course subject 
-##### activities: extra-curricular activities
-##### nursery: attended nursery school
-##### higher: wants to take higher education
-##### internet: Internet access at home
-##### romantic: with a romantic relationship
+#### schoolsup: extra educational support
+#### famsup: family educational support
+#### paid: extra paid classes within the course subject 
+#### activities: extra-curricular activities
+#### nursery: attended nursery school
+#### higher: wants to take higher education
+#### internet: Internet access at home
+#### romantic: with a romantic relationship
 yes or no
-##### famrel: quality of family relationships
+#### famrel: quality of family relationships
 from 1 - very bad to 5 - excellent
-##### freetime: free time after school
-##### goout: going out with friends
-##### Dalc: workday alcohol consumption
-##### Walc: weekend alcohol consumption
+#### freetime: free time after school
+#### goout: going out with friends
+#### Dalc: workday alcohol consumption
+#### Walc: weekend alcohol consumption
 from 1 - very low to 5 - very high
-##### health: current health status
+#### health: current health status
 from 1 - very bad to 5 - very good
-##### absences: number of school absences
+#### absences: number of school absences
 from 0 to 93
-##### G1 - first period grade
+#### G1 - first period grade
 from 0 to 20
-##### G2 - second period grade
+#### G2 - second period grade
 from 0 to 20)
-##### G3 - final grade
+#### G3 - final grade
 from 0 to 20
 
 # Machine Learning Models
